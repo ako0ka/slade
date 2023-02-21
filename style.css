@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgba(219, 141, 53, 0.81);
+}
+
+.container{
+    position: relative;
+background-image: url("./images/background.jpg");
+width: 500px;
+height: 500px;
+border-radius: 10px;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: burlywood;
+    color: aliceblue;
+    font-size: 1.2rem; 
+}
+
+#next{
+   
+    right: 0;
+  
+}
+
+#prev{
+   
+    left: 0;
+}
